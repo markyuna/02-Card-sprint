@@ -1,0 +1,46 @@
+/* Import fonts from Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Raleway:wght@300;400;500;700");
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
+/* Importing all components file */
+@import url("components/cards.css");
+@import url("components/container.css");
+
+/* General for fonts and colors */
+body {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 200px;
+  font-family: 'Open Sans', sans-serif;
+}
+mark:hover {
+  color: darkkhaki;
+  transition: 800ms;
+  font-style: oblique;
+}
+h1, h2, h3 {
+  font-family: Raleway, Helvetica, sans-serif;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+a {
+  text-decoration: none;
+}
+.text-center {
+  text-align: center;
+}
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+@media (max-width: 900px) {
+  .container {
+    width: 650px;
+  }
+}
+@media (max-width: 700px) {
+  .container {
+    width: 400px;
+  }
+}

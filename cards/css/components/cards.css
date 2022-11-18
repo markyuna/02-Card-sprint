@@ -1,0 +1,109 @@
+.card-category {
+  background-size: cover;
+  background-position: center;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 45px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+.card-category h3:hover {
+  color: chocolate;
+  transition: 800ms;
+}
+.card-product {
+  overflow: hidden;
+  height: 120px;
+  background-color: white;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+.card-product img {
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+}
+.card-product div {
+  flex-grow: 2;
+  padding: 3px 24px;
+}
+.card-product h3 {
+  font-family: 'Merienda One', cursive;;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0;
+}
+.card-product h3:hover {
+  color: chocolate;
+  font-family: 'Merienda One', cursive;
+}
+.card-product p {
+  font-size: 12px;
+  line-height: 1.4;
+  opacity: 0.6;
+  margin-bottom: 0;
+  margin-top: 8px;
+}
+.card-product .card-product-infos {
+  padding: 16px;
+}
+@media (max-widht: 700px) {
+  .card-product {
+    display: block;
+  }
+}
+.card-trip {
+  overflow: hidden;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+.card-trip > img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.card-trip .card-trip-infos {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 25px 30px;
+}
+.card-trip-infos .card-trip-user {
+  position: relative;
+  right: 16px;
+  top: -70px;
+  width: 80px;
+}
+.avatar-bordered {
+  position: absolute;
+  bottom: 10px;
+  right: -20px;
+  width: 80px;
+  border-radius: 50%;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  border: white 1px solid;
+}
+.card-trip h3 {
+  font-size: 18px;
+  margin-right: -80px;
+  font-family: 'Merienda One', cursive;
+}
+.card-trip h3:hover {
+  color: chocolate;
+  font-size: 18px;
+  margin-right: -80px;
+  font-family: 'Merienda One', cursive;
+}
+.card-trip p {
+  font-size: 16px;
+  opacity: .7;
+  margin: 0;
+}
